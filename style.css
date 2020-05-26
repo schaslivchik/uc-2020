@@ -270,6 +270,12 @@ body {
 .header-block {
   margin-top: 70px;
 }
+header {
+  position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+}
 }
 @media all and (max-width: 460px) {
   .uc-solutions-item {
