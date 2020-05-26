@@ -238,6 +238,10 @@ body {
   }
 }
 @media all and (max-width: 767px) {
+  .uc-navbar {
+    position: relative;
+    background: #ffffffef;
+  }
   .uc-solutions-item {
     width: 50%;
   }
@@ -257,14 +261,12 @@ body {
   .block-header-img {
     left:0;
     right: auto;
-    top: -340px;
+    top: -120px;
   }
   .container-screen-height {
     height: 460px;
 }
-.block-header-img img {
-  max-width: initial ;
-}
+
 .header-block {
   margin-top: 70px;
 }
