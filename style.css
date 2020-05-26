@@ -1,8 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f6f7fd;
   overflow-x: hidden;
+}
+.uc-navbar {
+  position: fixed;
+  padding: 12px 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: 0.3s;
+}
+.uc-navbar.sticky-nav {
+  background: #ffffffef;
+}
+.container-uc-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.uc-contact-inform {
+  display: flex;
+  align-items: center;
+}
+.phone-inform {
+  margin-right: 40px;
+}
+.phone-inform-xs {
+  margin-right: 20px;
+}
+.phone-inform a {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 500;
 }
 .header-block {
   position: relative;
@@ -43,6 +75,24 @@ body {
   border-radius: 50px;
   box-shadow: 0 10px 36px 16px #0177fd30;
   transition: 0.2s;
+}
+.btn-danger-landing {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  background: #fc5d4a;
+  border-radius: 50px;
+  box-shadow: 0 10px 36px 16px #fc5c4a2a;
+  transition: 0.2s;
+}
+.btn-danger-landing:hover,.btn-danger-landing:focus {
+  color: #ffffff;
+  background: #fc5d4a;
+  box-shadow: 0 6px 16px 6px #fc5c4a38;
+  text-shadow:  0 0 50px #ffffff;
+  transform: translateY(3px);
+  outline: 0px auto -webkit-focus-ring-color;
 }
 .btn-primary-landing:hover,.btn-primary-landing:focus {
   color: #ffffff;
