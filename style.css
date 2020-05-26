@@ -240,7 +240,7 @@ body {
 @media all and (max-width: 767px) {
   .uc-navbar {
     position: relative;
-    background: #ffffffef;
+   
   }
   .uc-solutions-item {
     width: 50%;
@@ -261,7 +261,7 @@ body {
   .block-header-img {
     left:0;
     right: auto;
-    top: -120px;
+    top: -156px;
   }
   .container-screen-height {
     height: 460px;
