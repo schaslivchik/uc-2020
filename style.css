@@ -265,6 +265,9 @@ body {
 .block-header-img img {
   max-width: initial ;
 }
+.header-block {
+  margin-top: 70px;
+}
 }
 @media all and (max-width: 460px) {
   .uc-solutions-item {
